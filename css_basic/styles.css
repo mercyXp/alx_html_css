@@ -3,16 +3,29 @@ body , main{
 }
 body {
     flex-direction: column;
+     background-color: #ffffff;
 }
 main{
     flex-direction: row;
     flex:auto;
+    background-color: #d8f7de;
 }
 article{
     flex: 2;
     overflow-y: auto;
+    
 }
 aside{
     flex: 1;
     overflow-y: auto;
+}
+#comment{
+    border-radius: 2cqmin;
+    background-color: #6db390;
+}
+
+header, footer {
+  background-color: #56603a;
+  color: white;
+  padding: 1rem;
 }
