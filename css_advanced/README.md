@@ -1,5 +1,5 @@
 # Smiles School Website
-
+<a href="https://smiles-school.netlify.app/">view the site</a>
 ## Project Overview
 This project builds upon the HTML Advanced concepts by focusing on implementing professional CSS styling based on a Figma design. The goal is to recreate the design pixel-perfectly while maintaining clean, efficient CSS code.
 
@@ -18,7 +18,7 @@ css_advanced/
 ├── styles.css      # All CSS styling
 └── assets/         # Folder for images and fonts
     ├── images/
-    └── fonts/
+    └── logos/
 ```
 
 ### Learning Objectives
