@@ -194,6 +194,7 @@ section.popular-tutorials {
   text-align: center;
   font-weight: 300;
   font-size: 32px;
+  line-height: 100%;
   margin-bottom: 70px;
 }
 .highlight{
@@ -244,6 +245,9 @@ section.popular-tutorials {
 
 .description{
   padding: 12px 8px;
+}
+.description > p{
+  color: #07162980;
 }
 /* Phillip Massey profile image (second image inside each article) */
 .tutor > img {
