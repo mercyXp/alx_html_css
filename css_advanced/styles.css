@@ -466,11 +466,180 @@ section.popular-tutorials {
   line-height: 15px;
 }
 
-
-/* MEDIA QUERIES */
+/* ========= MEDIA QUERIES ========= */
 @media screen and (max-width: 768px) {
   .faq-container {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+/* Tablets (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+  .nav-bar ul {
+    gap: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 80px;
+  }
+
+  .instructors {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .tutorial-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .membership__features {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .faq-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Mobile devices (≤ 768px) */
+@media screen and (max-width: 768px) {
+  .hero-header {
+    padding: 20px;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 60px;
+  }
+
+  .hero-content button {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .learn-from-pros h2 {
+    font-size: 18px;
+  }
+
+  .instructors {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .testimonial-image img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .tutorials > h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .tutorial-list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tutorial-list article {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .membership__features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .membership__feature {
+    max-width: 80%;
+  }
+
+  .membership__button {
+    width: 80%;
+  }
+
+  .faq-title {
+    font-size: 2rem;
+  }
+
+  .faq-container {
+    flex-direction: column;
+  }
+
+  .faq-column {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* Small phones (≤ 480px) */
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-tags span {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .play-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .testimonial-content blockquote {
+    font-size: 18px;
+  }
+
+  .membership__title {
+    font-size: 24px;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+  }
+
+  .faq-answer {
+    font-size: 0.9rem;
+  }
+
+  .footer-copy {
+    font-size: 10px;
   }
 }
