@@ -87,5 +87,9 @@ css_advanced/
 ## Deadline
 Project must be completed by 27.07.2025 at 11:00 PM GMT
 Duration: 1 week
+
+## Duration
+It took me straight 8 hours with minimal breaks to complete this project. Started at 07:55am and ended at 15:20pm.
+I used AI for faster styling on certain parts. (Life is not supposed to be difficult : )lol)
 ## Author
 Mercy Munzenzi - ALX Student
