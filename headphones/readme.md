@@ -2,7 +2,7 @@
 
 This project is a pixel-perfect implementation of a responsive landing page design, built entirely **from scratch** using **HTML and CSS** — with no external libraries, frameworks, or JavaScript (except where explicitly required in the final task).
 
-## 🧠 Project Overview
+##  Project Overview
 
 This webpage replicates a Figma design created by UI/UX designer **Nicolas Philippot**. It demonstrates mastery of modern web development foundations including:
 
@@ -17,7 +17,7 @@ This webpage replicates a Figma design created by UI/UX designer **Nicolas Phili
 All project files are located in:  
 **`alx_html_css/headphones/`**
 
-## 🧩 Sections Built
+## Sections Built
 
 Each section of the page is completed as a separate task:
 
@@ -30,7 +30,7 @@ Each section of the page is completed as a separate task:
 7. **Animations** — Enhancing interactivity with transitions and effects.
 8. **Hamburger Menu** — Responsive navigation toggle for small screens (JavaScript-enabled).
 
-## 📱 Responsiveness
+## Responsiveness
 
 - Mobile version activates at screen widths ≤ 480px
 - Max content width: **1000px**, centered
@@ -51,7 +51,7 @@ Fonts used: **Source Sans Pro** and **Spin Cycle OT**
 - Vanilla JavaScript (Task 8 only)
 - No external libraries or CSS frameworks
 
-## 🏁 Final Notes
+## Final Notes
 
 This project marks the completion of the **HTML & CSS module** in the ALX Frontend Program. It showcases real-world skills in building web pages from Figma designs with full responsiveness and clean code practices.
 
