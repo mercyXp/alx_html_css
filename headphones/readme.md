@@ -41,7 +41,6 @@ Each section of the page is completed as a separate task:
 ## 🎨 Design Reference
 
 Figma Design File: [Headphones Landing Page on Figma]()
-- Fonts used: **Source Sans Pro** and **Spin Cycle OT** 
 Fonts used: **Source Sans Pro** and **Spin Cycle OT**
 
 ## ⚙️ Technologies Used
