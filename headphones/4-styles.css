@@ -501,3 +501,69 @@ ul {
     font-size: 10px;
   }
 }
+
+/* Keyframes for animations */
+@keyframes bounceScale {
+  0%, 100% { transform: scale(1) translateY(0); opacity: 1; }
+  50% { transform: scale(1.05) translateY(-10px); opacity: 0.8; }
+}
+
+@keyframes rotateFade {
+  0% { transform: rotate(0deg); opacity: 1; }
+  50% { transform: rotate(10deg); opacity: 0.6; }
+  100% { transform: rotate(0deg); opacity: 1; }
+}
+
+@keyframes pulseOpacity {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes tilt {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(3deg); }
+}
+
+/* ------------- ALWAYS RUNNING ANIMATIONS ------------ */
+.what-we-do .service.animated {
+  animation: bounceScale 4s ease-in-out infinite;
+  /* Different delays for variety */
+  animation-delay: calc(var(--i, 0) * 0.5s);
+  transform-origin: center bottom;
+  cursor: pointer;
+}
+
+.results-section .pentagon.animated {
+  animation: rotateFade 5s ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * 0.7s);
+  transform-origin: center center;
+  cursor: pointer;
+}
+
+/* ------------- HOVER ANIMATIONS ------------ */
+
+/* Remove always running animation on hover-enabled case */
+.what-we-do .service.animated:hover {
+  animation: none;
+  /* Add scale + rotate + shadow on hover */
+  transform: scale(1.1) rotate(5deg);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 15px rgba(255, 101, 101, 0.5);
+}
+
+.results-section .pentagon.animated:hover {
+  animation: none;
+  transform: scale(1.15) rotate(-10deg);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 20px rgba(255, 101, 101, 0.7);
+}
+
+/* Optional: pulse opacity on hover for service icons */
+.what-we-do .service.animated:hover .service-icon {
+  animation: pulseOpacity 1.2s ease-in-out infinite alternate;
+}
+
+/* Optional: tilt overlay text on pentagon hover */
+.results-section .pentagon.animated:hover .overlay-text {
+  animation: tilt 1s ease-in-out infinite alternate;
+}
